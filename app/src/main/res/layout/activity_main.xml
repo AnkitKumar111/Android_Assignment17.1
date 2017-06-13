@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RelativeLayout
+    tools:context="com.example.ankitkumar.music_player.MainActivity"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/activity_main"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<Button
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:id="@+id/button_start"
+    android:layout_marginBottom="103dp"
+    android:layout_alignLeft="@+id/button_stop"
+    android:layout_above="@+id/button_stop"
+    android:textStyle="bold"
+    android:textAllCaps="false"
+    android:text="@string/start"/>
+
+<Button
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:id="@+id/button_stop"
+    android:layout_marginBottom="169dp"
+    android:textStyle="bold"
+    android:textAllCaps="false"
+    android:text="@string/stop"
+    android:layout_centerHorizontal="true"
+    android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
